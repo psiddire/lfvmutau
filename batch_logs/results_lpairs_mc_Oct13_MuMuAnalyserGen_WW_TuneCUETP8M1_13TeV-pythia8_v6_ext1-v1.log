@@ -1,0 +1,167 @@
+INFO:__main__:Processing inputs/lpairs_mc_Oct13/WW_TuneCUETP8M1_13TeV-pythia8_v6_ext1-v1.txt using MuMuAnalyserGen.py, the output file will be results/lpairs_mc_Oct13/MuMuAnalyserGen/WW_TuneCUETP8M1_13TeV-pythia8_v6_ext1-v1.root
+INFO:__main__:Generating submit scripts in /nfs_scratch/psiddire/tmpT_aqAdMuMuAnalyserGen-WW_TuneCUETP8M1_13TeV-pythia8_v6_ext1-v1
+INFO:FinalStateAnalysis.PlotTools.MegaPath:Checking inputs file inputs/lpairs_mc_Oct13/WW_TuneCUETP8M1_13TeV-pythia8_v6_ext1-v1.txt exists...
+INFO:__main__:Running over 67 files in 7 jobs
+Generating submit files in /nfs_scratch/psiddire/tmpT_aqAdMuMuAnalyserGen-WW_TuneCUETP8M1_13TeV-pythia8_v6_ext1-v1/analyze...
+.......
+Submit DAG file /nfs_scratch/psiddire/tmpT_aqAdMuMuAnalyserGen-WW_TuneCUETP8M1_13TeV-pythia8_v6_ext1-v1/job.dag has been created but not submitted.
+Jobs for Analyze are created in /nfs_scratch/psiddire/tmpT_aqAdMuMuAnalyserGen-WW_TuneCUETP8M1_13TeV-pythia8_v6_ext1-v1/analyze
+Using HADD method to merge files
+Increasing vsize limit from 3000 MB to 6000 MB
+Copying 52038186 bytes file:///nfs_scratch/psiddire/tmpT_aqAdMuMuAnalyserGen-WW_TuneCUETP8M1_13TeV-pythia8_v6_ext1-v1/FinalMerged/user_code.tgz => srm://cmssrm2.hep.wisc.edu:8443/srm/v2/server?SFN=/hdfs/HighReplicaCondorUserFiles//nfs_scratch/psiddire/tmpT_aqAdMuMuAnalyserGen-WW_TuneCUETP8M1_13TeV-pythia8_v6_ext1-v1/FinalMerged/user_code.tgz
+Generating submit files in /nfs_scratch/psiddire/tmpT_aqAdMuMuAnalyserGen-WW_TuneCUETP8M1_13TeV-pythia8_v6_ext1-v1/FinalMerged...
+.
+Submitting job(s).
+1 job(s) submitted to cluster 8189292.
+
+-----------------------------------------------------------------------
+File for submitting this DAG to HTCondor           : /nfs_scratch/psiddire/tmpT_aqAdMuMuAnalyserGen-WW_TuneCUETP8M1_13TeV-pythia8_v6_ext1-v1/job.dag.condor.sub
+Log of DAGMan debugging messages                 : /nfs_scratch/psiddire/tmpT_aqAdMuMuAnalyserGen-WW_TuneCUETP8M1_13TeV-pythia8_v6_ext1-v1/job.dag.dagman.out
+Log of HTCondor library output                     : /nfs_scratch/psiddire/tmpT_aqAdMuMuAnalyserGen-WW_TuneCUETP8M1_13TeV-pythia8_v6_ext1-v1/job.dag.lib.out
+Log of HTCondor library error messages             : /nfs_scratch/psiddire/tmpT_aqAdMuMuAnalyserGen-WW_TuneCUETP8M1_13TeV-pythia8_v6_ext1-v1/job.dag.lib.err
+Log of the life of condor_dagman itself          : /nfs_scratch/psiddire/tmpT_aqAdMuMuAnalyserGen-WW_TuneCUETP8M1_13TeV-pythia8_v6_ext1-v1/job.dag.dagman.log
+
+-----------------------------------------------------------------------
+You can monitor your workflow's progess by watching /nfs_scratch/psiddire/tmpT_aqAdMuMuAnalyserGen-WW_TuneCUETP8M1_13TeV-pythia8_v6_ext1-v1/job.dag.dagman.out
+A summary of the status of all of the jobs in your workflow will be
+written to the following file every 60 seconds:
+  /nfs_scratch/psiddire/tmpT_aqAdMuMuAnalyserGen-WW_TuneCUETP8M1_13TeV-pythia8_v6_ext1-v1/job.dag.status
+
+Your jobs should show up in ~6 minutes
+at the NEW job monitoring web page :
+    http://www.hep.wisc.edu/cms/comp/jobs/
+Jobs for FinalMerged are created in /nfs_scratch/psiddire/tmpT_aqAdMuMuAnalyserGen-WW_TuneCUETP8M1_13TeV-pythia8_v6_ext1-v1/FinalMerged
+INFO:__main__:Waiting for job to complete
+INFO:__main__:/nfs_scratch/psiddire/tmpT_aqAdMuMuAnalyserGen-WW_TuneCUETP8M1_13TeV-pythia8_v6_ext1-v1/job.dag: UNKNOWN stats: [30mUNKNOWN[0m(8)
+INFO:__main__:/nfs_scratch/psiddire/tmpT_aqAdMuMuAnalyserGen-WW_TuneCUETP8M1_13TeV-pythia8_v6_ext1-v1/job.dag: STATUS_SUBMITTED stats: [33mSTATUS_SUBMITTED[0m(7) [34mSTATUS_NOT_READY[0m(1)
+INFO:__main__:/nfs_scratch/psiddire/tmpT_aqAdMuMuAnalyserGen-WW_TuneCUETP8M1_13TeV-pythia8_v6_ext1-v1/job.dag: STATUS_SUBMITTED stats: [33mSTATUS_SUBMITTED[0m(7) [34mSTATUS_NOT_READY[0m(1)
+INFO:__main__:/nfs_scratch/psiddire/tmpT_aqAdMuMuAnalyserGen-WW_TuneCUETP8M1_13TeV-pythia8_v6_ext1-v1/job.dag: STATUS_SUBMITTED stats: [33mSTATUS_SUBMITTED[0m(7) [34mSTATUS_NOT_READY[0m(1)
+INFO:__main__:/nfs_scratch/psiddire/tmpT_aqAdMuMuAnalyserGen-WW_TuneCUETP8M1_13TeV-pythia8_v6_ext1-v1/job.dag: STATUS_SUBMITTED stats: [33mSTATUS_SUBMITTED[0m(7) [34mSTATUS_NOT_READY[0m(1)
+INFO:__main__:/nfs_scratch/psiddire/tmpT_aqAdMuMuAnalyserGen-WW_TuneCUETP8M1_13TeV-pythia8_v6_ext1-v1/job.dag: STATUS_SUBMITTED stats: [33mSTATUS_SUBMITTED[0m(7) [34mSTATUS_NOT_READY[0m(1)
+INFO:__main__:/nfs_scratch/psiddire/tmpT_aqAdMuMuAnalyserGen-WW_TuneCUETP8M1_13TeV-pythia8_v6_ext1-v1/job.dag: STATUS_SUBMITTED stats: [33mSTATUS_SUBMITTED[0m(7) [34mSTATUS_NOT_READY[0m(1)
+INFO:__main__:/nfs_scratch/psiddire/tmpT_aqAdMuMuAnalyserGen-WW_TuneCUETP8M1_13TeV-pythia8_v6_ext1-v1/job.dag: STATUS_SUBMITTED stats: [33mSTATUS_SUBMITTED[0m(7) [34mSTATUS_NOT_READY[0m(1)
+INFO:__main__:/nfs_scratch/psiddire/tmpT_aqAdMuMuAnalyserGen-WW_TuneCUETP8M1_13TeV-pythia8_v6_ext1-v1/job.dag: STATUS_SUBMITTED stats: [33mSTATUS_SUBMITTED[0m(7) [34mSTATUS_NOT_READY[0m(1)
+INFO:__main__:/nfs_scratch/psiddire/tmpT_aqAdMuMuAnalyserGen-WW_TuneCUETP8M1_13TeV-pythia8_v6_ext1-v1/job.dag: STATUS_SUBMITTED stats: [33mSTATUS_SUBMITTED[0m(7) [34mSTATUS_NOT_READY[0m(1)
+INFO:__main__:/nfs_scratch/psiddire/tmpT_aqAdMuMuAnalyserGen-WW_TuneCUETP8M1_13TeV-pythia8_v6_ext1-v1/job.dag: STATUS_SUBMITTED stats: [33mSTATUS_SUBMITTED[0m(7) [34mSTATUS_NOT_READY[0m(1)
+INFO:__main__:/nfs_scratch/psiddire/tmpT_aqAdMuMuAnalyserGen-WW_TuneCUETP8M1_13TeV-pythia8_v6_ext1-v1/job.dag: STATUS_SUBMITTED stats: [33mSTATUS_SUBMITTED[0m(7) [34mSTATUS_NOT_READY[0m(1)
+INFO:__main__:/nfs_scratch/psiddire/tmpT_aqAdMuMuAnalyserGen-WW_TuneCUETP8M1_13TeV-pythia8_v6_ext1-v1/job.dag: STATUS_SUBMITTED stats: [33mSTATUS_SUBMITTED[0m(7) [34mSTATUS_NOT_READY[0m(1)
+INFO:__main__:/nfs_scratch/psiddire/tmpT_aqAdMuMuAnalyserGen-WW_TuneCUETP8M1_13TeV-pythia8_v6_ext1-v1/job.dag: STATUS_SUBMITTED stats: [33mSTATUS_SUBMITTED[0m(7) [34mSTATUS_NOT_READY[0m(1)
+INFO:__main__:/nfs_scratch/psiddire/tmpT_aqAdMuMuAnalyserGen-WW_TuneCUETP8M1_13TeV-pythia8_v6_ext1-v1/job.dag: STATUS_SUBMITTED stats: [33mSTATUS_SUBMITTED[0m(7) [34mSTATUS_NOT_READY[0m(1)
+INFO:__main__:/nfs_scratch/psiddire/tmpT_aqAdMuMuAnalyserGen-WW_TuneCUETP8M1_13TeV-pythia8_v6_ext1-v1/job.dag: STATUS_SUBMITTED stats: [33mSTATUS_SUBMITTED[0m(7) [34mSTATUS_NOT_READY[0m(1)
+INFO:__main__:/nfs_scratch/psiddire/tmpT_aqAdMuMuAnalyserGen-WW_TuneCUETP8M1_13TeV-pythia8_v6_ext1-v1/job.dag: STATUS_SUBMITTED stats: [33mSTATUS_SUBMITTED[0m(7) [34mSTATUS_NOT_READY[0m(1)
+INFO:__main__:/nfs_scratch/psiddire/tmpT_aqAdMuMuAnalyserGen-WW_TuneCUETP8M1_13TeV-pythia8_v6_ext1-v1/job.dag: STATUS_SUBMITTED stats: [33mSTATUS_SUBMITTED[0m(7) [34mSTATUS_NOT_READY[0m(1)
+INFO:__main__:/nfs_scratch/psiddire/tmpT_aqAdMuMuAnalyserGen-WW_TuneCUETP8M1_13TeV-pythia8_v6_ext1-v1/job.dag: STATUS_SUBMITTED stats: [33mSTATUS_SUBMITTED[0m(7) [34mSTATUS_NOT_READY[0m(1)
+INFO:__main__:/nfs_scratch/psiddire/tmpT_aqAdMuMuAnalyserGen-WW_TuneCUETP8M1_13TeV-pythia8_v6_ext1-v1/job.dag: STATUS_SUBMITTED stats: [33mSTATUS_SUBMITTED[0m(7) [34mSTATUS_NOT_READY[0m(1)
+INFO:__main__:/nfs_scratch/psiddire/tmpT_aqAdMuMuAnalyserGen-WW_TuneCUETP8M1_13TeV-pythia8_v6_ext1-v1/job.dag: STATUS_SUBMITTED stats: [33mSTATUS_SUBMITTED[0m(7) [34mSTATUS_NOT_READY[0m(1)
+INFO:__main__:/nfs_scratch/psiddire/tmpT_aqAdMuMuAnalyserGen-WW_TuneCUETP8M1_13TeV-pythia8_v6_ext1-v1/job.dag: STATUS_SUBMITTED stats: [33mSTATUS_SUBMITTED[0m(7) [34mSTATUS_NOT_READY[0m(1)
+INFO:__main__:/nfs_scratch/psiddire/tmpT_aqAdMuMuAnalyserGen-WW_TuneCUETP8M1_13TeV-pythia8_v6_ext1-v1/job.dag: STATUS_SUBMITTED stats: [33mSTATUS_SUBMITTED[0m(7) [34mSTATUS_NOT_READY[0m(1)
+INFO:__main__:/nfs_scratch/psiddire/tmpT_aqAdMuMuAnalyserGen-WW_TuneCUETP8M1_13TeV-pythia8_v6_ext1-v1/job.dag: STATUS_SUBMITTED stats: [33mSTATUS_SUBMITTED[0m(7) [34mSTATUS_NOT_READY[0m(1)
+INFO:__main__:/nfs_scratch/psiddire/tmpT_aqAdMuMuAnalyserGen-WW_TuneCUETP8M1_13TeV-pythia8_v6_ext1-v1/job.dag: STATUS_SUBMITTED stats: [33mSTATUS_SUBMITTED[0m(7) [34mSTATUS_NOT_READY[0m(1)
+INFO:__main__:/nfs_scratch/psiddire/tmpT_aqAdMuMuAnalyserGen-WW_TuneCUETP8M1_13TeV-pythia8_v6_ext1-v1/job.dag: STATUS_SUBMITTED stats: [33mSTATUS_SUBMITTED[0m(7) [34mSTATUS_NOT_READY[0m(1)
+INFO:__main__:/nfs_scratch/psiddire/tmpT_aqAdMuMuAnalyserGen-WW_TuneCUETP8M1_13TeV-pythia8_v6_ext1-v1/job.dag: STATUS_SUBMITTED stats: [33mSTATUS_SUBMITTED[0m(7) [34mSTATUS_NOT_READY[0m(1)
+INFO:__main__:/nfs_scratch/psiddire/tmpT_aqAdMuMuAnalyserGen-WW_TuneCUETP8M1_13TeV-pythia8_v6_ext1-v1/job.dag: STATUS_SUBMITTED stats: [33mSTATUS_SUBMITTED[0m(7) [34mSTATUS_NOT_READY[0m(1)
+INFO:__main__:/nfs_scratch/psiddire/tmpT_aqAdMuMuAnalyserGen-WW_TuneCUETP8M1_13TeV-pythia8_v6_ext1-v1/job.dag: STATUS_SUBMITTED stats: [33mSTATUS_SUBMITTED[0m(7) [34mSTATUS_NOT_READY[0m(1)
+INFO:__main__:/nfs_scratch/psiddire/tmpT_aqAdMuMuAnalyserGen-WW_TuneCUETP8M1_13TeV-pythia8_v6_ext1-v1/job.dag: STATUS_SUBMITTED stats: [33mSTATUS_SUBMITTED[0m(7) [34mSTATUS_NOT_READY[0m(1)
+INFO:__main__:/nfs_scratch/psiddire/tmpT_aqAdMuMuAnalyserGen-WW_TuneCUETP8M1_13TeV-pythia8_v6_ext1-v1/job.dag: STATUS_SUBMITTED stats: [33mSTATUS_SUBMITTED[0m(7) [34mSTATUS_NOT_READY[0m(1)
+INFO:__main__:/nfs_scratch/psiddire/tmpT_aqAdMuMuAnalyserGen-WW_TuneCUETP8M1_13TeV-pythia8_v6_ext1-v1/job.dag: STATUS_SUBMITTED stats: [33mSTATUS_SUBMITTED[0m(7) [34mSTATUS_NOT_READY[0m(1)
+INFO:__main__:/nfs_scratch/psiddire/tmpT_aqAdMuMuAnalyserGen-WW_TuneCUETP8M1_13TeV-pythia8_v6_ext1-v1/job.dag: STATUS_SUBMITTED stats: [33mSTATUS_SUBMITTED[0m(7) [34mSTATUS_NOT_READY[0m(1)
+INFO:__main__:/nfs_scratch/psiddire/tmpT_aqAdMuMuAnalyserGen-WW_TuneCUETP8M1_13TeV-pythia8_v6_ext1-v1/job.dag: STATUS_SUBMITTED stats: [33mSTATUS_SUBMITTED[0m(7) [34mSTATUS_NOT_READY[0m(1)
+INFO:__main__:/nfs_scratch/psiddire/tmpT_aqAdMuMuAnalyserGen-WW_TuneCUETP8M1_13TeV-pythia8_v6_ext1-v1/job.dag: STATUS_SUBMITTED stats: [33mSTATUS_SUBMITTED[0m(7) [34mSTATUS_NOT_READY[0m(1)
+INFO:__main__:/nfs_scratch/psiddire/tmpT_aqAdMuMuAnalyserGen-WW_TuneCUETP8M1_13TeV-pythia8_v6_ext1-v1/job.dag: STATUS_SUBMITTED stats: [33mSTATUS_SUBMITTED[0m(7) [34mSTATUS_NOT_READY[0m(1)
+INFO:__main__:/nfs_scratch/psiddire/tmpT_aqAdMuMuAnalyserGen-WW_TuneCUETP8M1_13TeV-pythia8_v6_ext1-v1/job.dag: STATUS_SUBMITTED stats: [33mSTATUS_SUBMITTED[0m(7) [34mSTATUS_NOT_READY[0m(1)
+INFO:__main__:/nfs_scratch/psiddire/tmpT_aqAdMuMuAnalyserGen-WW_TuneCUETP8M1_13TeV-pythia8_v6_ext1-v1/job.dag: STATUS_SUBMITTED stats: [33mSTATUS_SUBMITTED[0m(7) [34mSTATUS_NOT_READY[0m(1)
+INFO:__main__:/nfs_scratch/psiddire/tmpT_aqAdMuMuAnalyserGen-WW_TuneCUETP8M1_13TeV-pythia8_v6_ext1-v1/job.dag: STATUS_SUBMITTED stats: [33mSTATUS_SUBMITTED[0m(7) [34mSTATUS_NOT_READY[0m(1)
+INFO:__main__:/nfs_scratch/psiddire/tmpT_aqAdMuMuAnalyserGen-WW_TuneCUETP8M1_13TeV-pythia8_v6_ext1-v1/job.dag: STATUS_SUBMITTED stats: [33mSTATUS_SUBMITTED[0m(7) [34mSTATUS_NOT_READY[0m(1)
+INFO:__main__:/nfs_scratch/psiddire/tmpT_aqAdMuMuAnalyserGen-WW_TuneCUETP8M1_13TeV-pythia8_v6_ext1-v1/job.dag: STATUS_SUBMITTED stats: [33mSTATUS_SUBMITTED[0m(7) [34mSTATUS_NOT_READY[0m(1)
+INFO:__main__:/nfs_scratch/psiddire/tmpT_aqAdMuMuAnalyserGen-WW_TuneCUETP8M1_13TeV-pythia8_v6_ext1-v1/job.dag: STATUS_SUBMITTED stats: [33mSTATUS_SUBMITTED[0m(7) [34mSTATUS_NOT_READY[0m(1)
+INFO:__main__:/nfs_scratch/psiddire/tmpT_aqAdMuMuAnalyserGen-WW_TuneCUETP8M1_13TeV-pythia8_v6_ext1-v1/job.dag: STATUS_SUBMITTED stats: [33mSTATUS_SUBMITTED[0m(2) [32mSTATUS_DONE[0m(5) [34mSTATUS_NOT_READY[0m(1)
+INFO:__main__:/nfs_scratch/psiddire/tmpT_aqAdMuMuAnalyserGen-WW_TuneCUETP8M1_13TeV-pythia8_v6_ext1-v1/job.dag: STATUS_SUBMITTED stats: [33mSTATUS_SUBMITTED[0m(2) [32mSTATUS_DONE[0m(5) [34mSTATUS_NOT_READY[0m(1)
+INFO:__main__:/nfs_scratch/psiddire/tmpT_aqAdMuMuAnalyserGen-WW_TuneCUETP8M1_13TeV-pythia8_v6_ext1-v1/job.dag: STATUS_SUBMITTED stats: [33mSTATUS_SUBMITTED[0m(2) [32mSTATUS_DONE[0m(5) [34mSTATUS_NOT_READY[0m(1)
+INFO:__main__:/nfs_scratch/psiddire/tmpT_aqAdMuMuAnalyserGen-WW_TuneCUETP8M1_13TeV-pythia8_v6_ext1-v1/job.dag: STATUS_SUBMITTED stats: [33mSTATUS_SUBMITTED[0m(2) [32mSTATUS_DONE[0m(5) [34mSTATUS_NOT_READY[0m(1)
+INFO:__main__:/nfs_scratch/psiddire/tmpT_aqAdMuMuAnalyserGen-WW_TuneCUETP8M1_13TeV-pythia8_v6_ext1-v1/job.dag: STATUS_SUBMITTED stats: [33mSTATUS_SUBMITTED[0m(2) [32mSTATUS_DONE[0m(5) [34mSTATUS_NOT_READY[0m(1)
+INFO:__main__:/nfs_scratch/psiddire/tmpT_aqAdMuMuAnalyserGen-WW_TuneCUETP8M1_13TeV-pythia8_v6_ext1-v1/job.dag: STATUS_SUBMITTED stats: [33mSTATUS_SUBMITTED[0m(2) [32mSTATUS_DONE[0m(5) [34mSTATUS_NOT_READY[0m(1)
+INFO:__main__:/nfs_scratch/psiddire/tmpT_aqAdMuMuAnalyserGen-WW_TuneCUETP8M1_13TeV-pythia8_v6_ext1-v1/job.dag: STATUS_SUBMITTED stats: [33mSTATUS_SUBMITTED[0m(1) [32mSTATUS_DONE[0m(7)
+INFO:__main__:/nfs_scratch/psiddire/tmpT_aqAdMuMuAnalyserGen-WW_TuneCUETP8M1_13TeV-pythia8_v6_ext1-v1/job.dag: STATUS_SUBMITTED stats: [33mSTATUS_SUBMITTED[0m(1) [32mSTATUS_DONE[0m(7)
+INFO:__main__:/nfs_scratch/psiddire/tmpT_aqAdMuMuAnalyserGen-WW_TuneCUETP8M1_13TeV-pythia8_v6_ext1-v1/job.dag: STATUS_SUBMITTED stats: [33mSTATUS_SUBMITTED[0m(1) [32mSTATUS_DONE[0m(7)
+INFO:__main__:/nfs_scratch/psiddire/tmpT_aqAdMuMuAnalyserGen-WW_TuneCUETP8M1_13TeV-pythia8_v6_ext1-v1/job.dag: STATUS_SUBMITTED stats: [33mSTATUS_SUBMITTED[0m(1) [32mSTATUS_DONE[0m(7)
+INFO:__main__:/nfs_scratch/psiddire/tmpT_aqAdMuMuAnalyserGen-WW_TuneCUETP8M1_13TeV-pythia8_v6_ext1-v1/job.dag: STATUS_SUBMITTED stats: [33mSTATUS_SUBMITTED[0m(1) [32mSTATUS_DONE[0m(7)
+INFO:__main__:/nfs_scratch/psiddire/tmpT_aqAdMuMuAnalyserGen-WW_TuneCUETP8M1_13TeV-pythia8_v6_ext1-v1/job.dag: STATUS_SUBMITTED stats: [33mSTATUS_SUBMITTED[0m(1) [32mSTATUS_DONE[0m(7)
+INFO:__main__:/nfs_scratch/psiddire/tmpT_aqAdMuMuAnalyserGen-WW_TuneCUETP8M1_13TeV-pythia8_v6_ext1-v1/job.dag: STATUS_SUBMITTED stats: [33mSTATUS_SUBMITTED[0m(1) [32mSTATUS_DONE[0m(7)
+INFO:__main__:/nfs_scratch/psiddire/tmpT_aqAdMuMuAnalyserGen-WW_TuneCUETP8M1_13TeV-pythia8_v6_ext1-v1/job.dag: STATUS_SUBMITTED stats: [33mSTATUS_SUBMITTED[0m(1) [32mSTATUS_DONE[0m(7)
+INFO:__main__:/nfs_scratch/psiddire/tmpT_aqAdMuMuAnalyserGen-WW_TuneCUETP8M1_13TeV-pythia8_v6_ext1-v1/job.dag: STATUS_SUBMITTED stats: [33mSTATUS_SUBMITTED[0m(1) [32mSTATUS_DONE[0m(7)
+INFO:__main__:/nfs_scratch/psiddire/tmpT_aqAdMuMuAnalyserGen-WW_TuneCUETP8M1_13TeV-pythia8_v6_ext1-v1/job.dag: STATUS_SUBMITTED stats: [33mSTATUS_SUBMITTED[0m(1) [32mSTATUS_DONE[0m(7)
+INFO:__main__:/nfs_scratch/psiddire/tmpT_aqAdMuMuAnalyserGen-WW_TuneCUETP8M1_13TeV-pythia8_v6_ext1-v1/job.dag: STATUS_SUBMITTED stats: [33mSTATUS_SUBMITTED[0m(1) [32mSTATUS_DONE[0m(7)
+INFO:__main__:/nfs_scratch/psiddire/tmpT_aqAdMuMuAnalyserGen-WW_TuneCUETP8M1_13TeV-pythia8_v6_ext1-v1/job.dag: STATUS_SUBMITTED stats: [33mSTATUS_SUBMITTED[0m(1) [32mSTATUS_DONE[0m(7)
+INFO:__main__:/nfs_scratch/psiddire/tmpT_aqAdMuMuAnalyserGen-WW_TuneCUETP8M1_13TeV-pythia8_v6_ext1-v1/job.dag: STATUS_SUBMITTED stats: [33mSTATUS_SUBMITTED[0m(1) [32mSTATUS_DONE[0m(7)
+INFO:__main__:/nfs_scratch/psiddire/tmpT_aqAdMuMuAnalyserGen-WW_TuneCUETP8M1_13TeV-pythia8_v6_ext1-v1/job.dag: STATUS_SUBMITTED stats: [33mSTATUS_SUBMITTED[0m(1) [32mSTATUS_DONE[0m(7)
+INFO:__main__:/nfs_scratch/psiddire/tmpT_aqAdMuMuAnalyserGen-WW_TuneCUETP8M1_13TeV-pythia8_v6_ext1-v1/job.dag: STATUS_SUBMITTED stats: [33mSTATUS_SUBMITTED[0m(1) [32mSTATUS_DONE[0m(7)
+INFO:__main__:/nfs_scratch/psiddire/tmpT_aqAdMuMuAnalyserGen-WW_TuneCUETP8M1_13TeV-pythia8_v6_ext1-v1/job.dag: STATUS_SUBMITTED stats: [33mSTATUS_SUBMITTED[0m(1) [32mSTATUS_DONE[0m(7)
+INFO:__main__:/nfs_scratch/psiddire/tmpT_aqAdMuMuAnalyserGen-WW_TuneCUETP8M1_13TeV-pythia8_v6_ext1-v1/job.dag: STATUS_SUBMITTED stats: [33mSTATUS_SUBMITTED[0m(1) [32mSTATUS_DONE[0m(7)
+INFO:__main__:/nfs_scratch/psiddire/tmpT_aqAdMuMuAnalyserGen-WW_TuneCUETP8M1_13TeV-pythia8_v6_ext1-v1/job.dag: STATUS_SUBMITTED stats: [33mSTATUS_SUBMITTED[0m(1) [32mSTATUS_DONE[0m(7)
+INFO:__main__:/nfs_scratch/psiddire/tmpT_aqAdMuMuAnalyserGen-WW_TuneCUETP8M1_13TeV-pythia8_v6_ext1-v1/job.dag: STATUS_SUBMITTED stats: [33mSTATUS_SUBMITTED[0m(1) [32mSTATUS_DONE[0m(7)
+INFO:__main__:/nfs_scratch/psiddire/tmpT_aqAdMuMuAnalyserGen-WW_TuneCUETP8M1_13TeV-pythia8_v6_ext1-v1/job.dag: STATUS_SUBMITTED stats: [33mSTATUS_SUBMITTED[0m(1) [32mSTATUS_DONE[0m(7)
+INFO:__main__:/nfs_scratch/psiddire/tmpT_aqAdMuMuAnalyserGen-WW_TuneCUETP8M1_13TeV-pythia8_v6_ext1-v1/job.dag: STATUS_SUBMITTED stats: [33mSTATUS_SUBMITTED[0m(1) [32mSTATUS_DONE[0m(7)
+INFO:__main__:/nfs_scratch/psiddire/tmpT_aqAdMuMuAnalyserGen-WW_TuneCUETP8M1_13TeV-pythia8_v6_ext1-v1/job.dag: STATUS_SUBMITTED stats: [33mSTATUS_SUBMITTED[0m(1) [32mSTATUS_DONE[0m(7)
+INFO:__main__:/nfs_scratch/psiddire/tmpT_aqAdMuMuAnalyserGen-WW_TuneCUETP8M1_13TeV-pythia8_v6_ext1-v1/job.dag: STATUS_SUBMITTED stats: [33mSTATUS_SUBMITTED[0m(1) [32mSTATUS_DONE[0m(7)
+INFO:__main__:/nfs_scratch/psiddire/tmpT_aqAdMuMuAnalyserGen-WW_TuneCUETP8M1_13TeV-pythia8_v6_ext1-v1/job.dag: STATUS_SUBMITTED stats: [33mSTATUS_SUBMITTED[0m(1) [32mSTATUS_DONE[0m(7)
+INFO:__main__:/nfs_scratch/psiddire/tmpT_aqAdMuMuAnalyserGen-WW_TuneCUETP8M1_13TeV-pythia8_v6_ext1-v1/job.dag: STATUS_SUBMITTED stats: [33mSTATUS_SUBMITTED[0m(1) [32mSTATUS_DONE[0m(7)
+INFO:__main__:/nfs_scratch/psiddire/tmpT_aqAdMuMuAnalyserGen-WW_TuneCUETP8M1_13TeV-pythia8_v6_ext1-v1/job.dag: STATUS_SUBMITTED stats: [33mSTATUS_SUBMITTED[0m(1) [32mSTATUS_DONE[0m(7)
+INFO:__main__:/nfs_scratch/psiddire/tmpT_aqAdMuMuAnalyserGen-WW_TuneCUETP8M1_13TeV-pythia8_v6_ext1-v1/job.dag: STATUS_SUBMITTED stats: [33mSTATUS_SUBMITTED[0m(1) [32mSTATUS_DONE[0m(7)
+INFO:__main__:/nfs_scratch/psiddire/tmpT_aqAdMuMuAnalyserGen-WW_TuneCUETP8M1_13TeV-pythia8_v6_ext1-v1/job.dag: STATUS_SUBMITTED stats: [33mSTATUS_SUBMITTED[0m(1) [32mSTATUS_DONE[0m(7)
+INFO:__main__:/nfs_scratch/psiddire/tmpT_aqAdMuMuAnalyserGen-WW_TuneCUETP8M1_13TeV-pythia8_v6_ext1-v1/job.dag: STATUS_SUBMITTED stats: [33mSTATUS_SUBMITTED[0m(1) [32mSTATUS_DONE[0m(7)
+INFO:__main__:/nfs_scratch/psiddire/tmpT_aqAdMuMuAnalyserGen-WW_TuneCUETP8M1_13TeV-pythia8_v6_ext1-v1/job.dag: STATUS_SUBMITTED stats: [33mSTATUS_SUBMITTED[0m(1) [32mSTATUS_DONE[0m(7)
+INFO:__main__:/nfs_scratch/psiddire/tmpT_aqAdMuMuAnalyserGen-WW_TuneCUETP8M1_13TeV-pythia8_v6_ext1-v1/job.dag: STATUS_SUBMITTED stats: [33mSTATUS_SUBMITTED[0m(1) [32mSTATUS_DONE[0m(7)
+INFO:__main__:/nfs_scratch/psiddire/tmpT_aqAdMuMuAnalyserGen-WW_TuneCUETP8M1_13TeV-pythia8_v6_ext1-v1/job.dag: STATUS_SUBMITTED stats: [33mSTATUS_SUBMITTED[0m(1) [32mSTATUS_DONE[0m(7)
+INFO:__main__:/nfs_scratch/psiddire/tmpT_aqAdMuMuAnalyserGen-WW_TuneCUETP8M1_13TeV-pythia8_v6_ext1-v1/job.dag: STATUS_SUBMITTED stats: [33mSTATUS_SUBMITTED[0m(1) [32mSTATUS_DONE[0m(7)
+INFO:__main__:/nfs_scratch/psiddire/tmpT_aqAdMuMuAnalyserGen-WW_TuneCUETP8M1_13TeV-pythia8_v6_ext1-v1/job.dag: STATUS_SUBMITTED stats: [33mSTATUS_SUBMITTED[0m(1) [32mSTATUS_DONE[0m(7)
+INFO:__main__:/nfs_scratch/psiddire/tmpT_aqAdMuMuAnalyserGen-WW_TuneCUETP8M1_13TeV-pythia8_v6_ext1-v1/job.dag: STATUS_SUBMITTED stats: [33mSTATUS_SUBMITTED[0m(1) [32mSTATUS_DONE[0m(7)
+INFO:__main__:/nfs_scratch/psiddire/tmpT_aqAdMuMuAnalyserGen-WW_TuneCUETP8M1_13TeV-pythia8_v6_ext1-v1/job.dag: STATUS_SUBMITTED stats: [33mSTATUS_SUBMITTED[0m(1) [32mSTATUS_DONE[0m(7)
+INFO:__main__:/nfs_scratch/psiddire/tmpT_aqAdMuMuAnalyserGen-WW_TuneCUETP8M1_13TeV-pythia8_v6_ext1-v1/job.dag: STATUS_SUBMITTED stats: [33mSTATUS_SUBMITTED[0m(1) [32mSTATUS_DONE[0m(7)
+INFO:__main__:/nfs_scratch/psiddire/tmpT_aqAdMuMuAnalyserGen-WW_TuneCUETP8M1_13TeV-pythia8_v6_ext1-v1/job.dag: STATUS_SUBMITTED stats: [33mSTATUS_SUBMITTED[0m(1) [32mSTATUS_DONE[0m(7)
+INFO:__main__:/nfs_scratch/psiddire/tmpT_aqAdMuMuAnalyserGen-WW_TuneCUETP8M1_13TeV-pythia8_v6_ext1-v1/job.dag: STATUS_SUBMITTED stats: [33mSTATUS_SUBMITTED[0m(1) [32mSTATUS_DONE[0m(7)
+INFO:__main__:/nfs_scratch/psiddire/tmpT_aqAdMuMuAnalyserGen-WW_TuneCUETP8M1_13TeV-pythia8_v6_ext1-v1/job.dag: STATUS_SUBMITTED stats: [33mSTATUS_SUBMITTED[0m(1) [32mSTATUS_DONE[0m(7)
+INFO:__main__:/nfs_scratch/psiddire/tmpT_aqAdMuMuAnalyserGen-WW_TuneCUETP8M1_13TeV-pythia8_v6_ext1-v1/job.dag: STATUS_SUBMITTED stats: [33mSTATUS_SUBMITTED[0m(1) [32mSTATUS_DONE[0m(7)
+INFO:__main__:/nfs_scratch/psiddire/tmpT_aqAdMuMuAnalyserGen-WW_TuneCUETP8M1_13TeV-pythia8_v6_ext1-v1/job.dag: STATUS_SUBMITTED stats: [33mSTATUS_SUBMITTED[0m(1) [32mSTATUS_DONE[0m(7)
+INFO:__main__:/nfs_scratch/psiddire/tmpT_aqAdMuMuAnalyserGen-WW_TuneCUETP8M1_13TeV-pythia8_v6_ext1-v1/job.dag: STATUS_SUBMITTED stats: [33mSTATUS_SUBMITTED[0m(1) [32mSTATUS_DONE[0m(7)
+INFO:__main__:/nfs_scratch/psiddire/tmpT_aqAdMuMuAnalyserGen-WW_TuneCUETP8M1_13TeV-pythia8_v6_ext1-v1/job.dag: STATUS_SUBMITTED stats: [33mSTATUS_SUBMITTED[0m(1) [32mSTATUS_DONE[0m(7)
+INFO:__main__:/nfs_scratch/psiddire/tmpT_aqAdMuMuAnalyserGen-WW_TuneCUETP8M1_13TeV-pythia8_v6_ext1-v1/job.dag: STATUS_SUBMITTED stats: [33mSTATUS_SUBMITTED[0m(1) [32mSTATUS_DONE[0m(7)
+INFO:__main__:/nfs_scratch/psiddire/tmpT_aqAdMuMuAnalyserGen-WW_TuneCUETP8M1_13TeV-pythia8_v6_ext1-v1/job.dag: STATUS_SUBMITTED stats: [33mSTATUS_SUBMITTED[0m(1) [32mSTATUS_DONE[0m(7)
+INFO:__main__:/nfs_scratch/psiddire/tmpT_aqAdMuMuAnalyserGen-WW_TuneCUETP8M1_13TeV-pythia8_v6_ext1-v1/job.dag: STATUS_SUBMITTED stats: [33mSTATUS_SUBMITTED[0m(1) [32mSTATUS_DONE[0m(7)
+INFO:__main__:/nfs_scratch/psiddire/tmpT_aqAdMuMuAnalyserGen-WW_TuneCUETP8M1_13TeV-pythia8_v6_ext1-v1/job.dag: STATUS_SUBMITTED stats: [33mSTATUS_SUBMITTED[0m(1) [32mSTATUS_DONE[0m(7)
+INFO:__main__:/nfs_scratch/psiddire/tmpT_aqAdMuMuAnalyserGen-WW_TuneCUETP8M1_13TeV-pythia8_v6_ext1-v1/job.dag: STATUS_SUBMITTED stats: [33mSTATUS_SUBMITTED[0m(1) [32mSTATUS_DONE[0m(7)
+INFO:__main__:/nfs_scratch/psiddire/tmpT_aqAdMuMuAnalyserGen-WW_TuneCUETP8M1_13TeV-pythia8_v6_ext1-v1/job.dag: STATUS_SUBMITTED stats: [33mSTATUS_SUBMITTED[0m(1) [32mSTATUS_DONE[0m(7)
+INFO:__main__:/nfs_scratch/psiddire/tmpT_aqAdMuMuAnalyserGen-WW_TuneCUETP8M1_13TeV-pythia8_v6_ext1-v1/job.dag: STATUS_SUBMITTED stats: [33mSTATUS_SUBMITTED[0m(1) [32mSTATUS_DONE[0m(7)
+INFO:__main__:/nfs_scratch/psiddire/tmpT_aqAdMuMuAnalyserGen-WW_TuneCUETP8M1_13TeV-pythia8_v6_ext1-v1/job.dag: STATUS_SUBMITTED stats: [33mSTATUS_SUBMITTED[0m(1) [32mSTATUS_DONE[0m(7)
+INFO:__main__:/nfs_scratch/psiddire/tmpT_aqAdMuMuAnalyserGen-WW_TuneCUETP8M1_13TeV-pythia8_v6_ext1-v1/job.dag: STATUS_SUBMITTED stats: [33mSTATUS_SUBMITTED[0m(1) [32mSTATUS_DONE[0m(7)
+INFO:__main__:/nfs_scratch/psiddire/tmpT_aqAdMuMuAnalyserGen-WW_TuneCUETP8M1_13TeV-pythia8_v6_ext1-v1/job.dag: STATUS_SUBMITTED stats: [33mSTATUS_SUBMITTED[0m(1) [32mSTATUS_DONE[0m(7)
+INFO:__main__:/nfs_scratch/psiddire/tmpT_aqAdMuMuAnalyserGen-WW_TuneCUETP8M1_13TeV-pythia8_v6_ext1-v1/job.dag: STATUS_SUBMITTED stats: [33mSTATUS_SUBMITTED[0m(1) [32mSTATUS_DONE[0m(7)
+INFO:__main__:/nfs_scratch/psiddire/tmpT_aqAdMuMuAnalyserGen-WW_TuneCUETP8M1_13TeV-pythia8_v6_ext1-v1/job.dag: STATUS_SUBMITTED stats: [33mSTATUS_SUBMITTED[0m(1) [32mSTATUS_DONE[0m(7)
+INFO:__main__:/nfs_scratch/psiddire/tmpT_aqAdMuMuAnalyserGen-WW_TuneCUETP8M1_13TeV-pythia8_v6_ext1-v1/job.dag: STATUS_SUBMITTED stats: [33mSTATUS_SUBMITTED[0m(1) [32mSTATUS_DONE[0m(7)
+INFO:__main__:/nfs_scratch/psiddire/tmpT_aqAdMuMuAnalyserGen-WW_TuneCUETP8M1_13TeV-pythia8_v6_ext1-v1/job.dag: STATUS_SUBMITTED stats: [33mSTATUS_SUBMITTED[0m(1) [32mSTATUS_DONE[0m(7)
+INFO:__main__:/nfs_scratch/psiddire/tmpT_aqAdMuMuAnalyserGen-WW_TuneCUETP8M1_13TeV-pythia8_v6_ext1-v1/job.dag: STATUS_SUBMITTED stats: [33mSTATUS_SUBMITTED[0m(1) [32mSTATUS_DONE[0m(7)
+INFO:__main__:/nfs_scratch/psiddire/tmpT_aqAdMuMuAnalyserGen-WW_TuneCUETP8M1_13TeV-pythia8_v6_ext1-v1/job.dag: STATUS_SUBMITTED stats: [33mSTATUS_SUBMITTED[0m(1) [32mSTATUS_DONE[0m(7)
+INFO:__main__:/nfs_scratch/psiddire/tmpT_aqAdMuMuAnalyserGen-WW_TuneCUETP8M1_13TeV-pythia8_v6_ext1-v1/job.dag: STATUS_SUBMITTED stats: [33mSTATUS_SUBMITTED[0m(1) [32mSTATUS_DONE[0m(7)
+INFO:__main__:/nfs_scratch/psiddire/tmpT_aqAdMuMuAnalyserGen-WW_TuneCUETP8M1_13TeV-pythia8_v6_ext1-v1/job.dag: STATUS_SUBMITTED stats: [33mSTATUS_SUBMITTED[0m(1) [32mSTATUS_DONE[0m(7)
+INFO:__main__:/nfs_scratch/psiddire/tmpT_aqAdMuMuAnalyserGen-WW_TuneCUETP8M1_13TeV-pythia8_v6_ext1-v1/job.dag: STATUS_SUBMITTED stats: [33mSTATUS_SUBMITTED[0m(1) [32mSTATUS_DONE[0m(7)
+INFO:__main__:/nfs_scratch/psiddire/tmpT_aqAdMuMuAnalyserGen-WW_TuneCUETP8M1_13TeV-pythia8_v6_ext1-v1/job.dag: STATUS_SUBMITTED stats: [33mSTATUS_SUBMITTED[0m(1) [32mSTATUS_DONE[0m(7)
+INFO:__main__:/nfs_scratch/psiddire/tmpT_aqAdMuMuAnalyserGen-WW_TuneCUETP8M1_13TeV-pythia8_v6_ext1-v1/job.dag: STATUS_SUBMITTED stats: [33mSTATUS_SUBMITTED[0m(1) [32mSTATUS_DONE[0m(7)
+INFO:__main__:/nfs_scratch/psiddire/tmpT_aqAdMuMuAnalyserGen-WW_TuneCUETP8M1_13TeV-pythia8_v6_ext1-v1/job.dag: STATUS_SUBMITTED stats: [33mSTATUS_SUBMITTED[0m(1) [32mSTATUS_DONE[0m(7)
+INFO:__main__:/nfs_scratch/psiddire/tmpT_aqAdMuMuAnalyserGen-WW_TuneCUETP8M1_13TeV-pythia8_v6_ext1-v1/job.dag: STATUS_SUBMITTED stats: [33mSTATUS_SUBMITTED[0m(1) [32mSTATUS_DONE[0m(7)
+INFO:__main__:/nfs_scratch/psiddire/tmpT_aqAdMuMuAnalyserGen-WW_TuneCUETP8M1_13TeV-pythia8_v6_ext1-v1/job.dag: STATUS_SUBMITTED stats: [33mSTATUS_SUBMITTED[0m(1) [32mSTATUS_DONE[0m(7)
+INFO:__main__:/nfs_scratch/psiddire/tmpT_aqAdMuMuAnalyserGen-WW_TuneCUETP8M1_13TeV-pythia8_v6_ext1-v1/job.dag: STATUS_SUBMITTED stats: [33mSTATUS_SUBMITTED[0m(1) [32mSTATUS_DONE[0m(7)
+INFO:__main__:/nfs_scratch/psiddire/tmpT_aqAdMuMuAnalyserGen-WW_TuneCUETP8M1_13TeV-pythia8_v6_ext1-v1/job.dag: STATUS_SUBMITTED stats: [33mSTATUS_SUBMITTED[0m(1) [32mSTATUS_DONE[0m(7)
+INFO:__main__:/nfs_scratch/psiddire/tmpT_aqAdMuMuAnalyserGen-WW_TuneCUETP8M1_13TeV-pythia8_v6_ext1-v1/job.dag: STATUS_SUBMITTED stats: [33mSTATUS_SUBMITTED[0m(1) [32mSTATUS_DONE[0m(7)
+INFO:__main__:/nfs_scratch/psiddire/tmpT_aqAdMuMuAnalyserGen-WW_TuneCUETP8M1_13TeV-pythia8_v6_ext1-v1/job.dag: STATUS_SUBMITTED stats: [33mSTATUS_SUBMITTED[0m(1) [32mSTATUS_DONE[0m(7)
+INFO:__main__:/nfs_scratch/psiddire/tmpT_aqAdMuMuAnalyserGen-WW_TuneCUETP8M1_13TeV-pythia8_v6_ext1-v1/job.dag: STATUS_SUBMITTED stats: [33mSTATUS_SUBMITTED[0m(1) [32mSTATUS_DONE[0m(7)
+INFO:__main__:/nfs_scratch/psiddire/tmpT_aqAdMuMuAnalyserGen-WW_TuneCUETP8M1_13TeV-pythia8_v6_ext1-v1/job.dag: STATUS_SUBMITTED stats: [33mSTATUS_SUBMITTED[0m(1) [32mSTATUS_DONE[0m(7)
+INFO:__main__:/nfs_scratch/psiddire/tmpT_aqAdMuMuAnalyserGen-WW_TuneCUETP8M1_13TeV-pythia8_v6_ext1-v1/job.dag: STATUS_SUBMITTED stats: [33mSTATUS_SUBMITTED[0m(1) [32mSTATUS_DONE[0m(7)
+INFO:__main__:/nfs_scratch/psiddire/tmpT_aqAdMuMuAnalyserGen-WW_TuneCUETP8M1_13TeV-pythia8_v6_ext1-v1/job.dag: STATUS_SUBMITTED stats: [33mSTATUS_SUBMITTED[0m(1) [32mSTATUS_DONE[0m(7)
+INFO:__main__:/nfs_scratch/psiddire/tmpT_aqAdMuMuAnalyserGen-WW_TuneCUETP8M1_13TeV-pythia8_v6_ext1-v1/job.dag: STATUS_SUBMITTED stats: [33mSTATUS_SUBMITTED[0m(1) [32mSTATUS_DONE[0m(7)
+INFO:__main__:/nfs_scratch/psiddire/tmpT_aqAdMuMuAnalyserGen-WW_TuneCUETP8M1_13TeV-pythia8_v6_ext1-v1/job.dag: STATUS_SUBMITTED stats: [33mSTATUS_SUBMITTED[0m(1) [32mSTATUS_DONE[0m(7)
+INFO:__main__:/nfs_scratch/psiddire/tmpT_aqAdMuMuAnalyserGen-WW_TuneCUETP8M1_13TeV-pythia8_v6_ext1-v1/job.dag: STATUS_SUBMITTED stats: [33mSTATUS_SUBMITTED[0m(1) [32mSTATUS_DONE[0m(7)
+INFO:__main__:/nfs_scratch/psiddire/tmpT_aqAdMuMuAnalyserGen-WW_TuneCUETP8M1_13TeV-pythia8_v6_ext1-v1/job.dag: STATUS_SUBMITTED stats: [33mSTATUS_SUBMITTED[0m(1) [32mSTATUS_DONE[0m(7)
+INFO:__main__:/nfs_scratch/psiddire/tmpT_aqAdMuMuAnalyserGen-WW_TuneCUETP8M1_13TeV-pythia8_v6_ext1-v1/job.dag: STATUS_SUBMITTED stats: [33mSTATUS_SUBMITTED[0m(1) [32mSTATUS_DONE[0m(7)
+INFO:__main__:/nfs_scratch/psiddire/tmpT_aqAdMuMuAnalyserGen-WW_TuneCUETP8M1_13TeV-pythia8_v6_ext1-v1/job.dag: STATUS_SUBMITTED stats: [33mSTATUS_SUBMITTED[0m(1) [32mSTATUS_DONE[0m(7)
+INFO:__main__:/nfs_scratch/psiddire/tmpT_aqAdMuMuAnalyserGen-WW_TuneCUETP8M1_13TeV-pythia8_v6_ext1-v1/job.dag: STATUS_DONE stats: [32mSTATUS_DONE[0m(8)
+INFO:__main__:Copying final output /hdfs/store/user/psiddire/MegaJob_tmpT_aqAdMuMuAnalyserGen-WW_TuneCUETP8M1_13TeV-pythia8_v6_ext1-v1//mergeFilesJob-mega-batch-make_ntuples_cfg-00155403-E5D9-E611-89D3-008CFAF292AE.root => results/lpairs_mc_Oct13/MuMuAnalyserGen/WW_TuneCUETP8M1_13TeV-pythia8_v6_ext1-v1.root
+INFO:__main__:[32m/nfs_scratch/psiddire/tmpT_aqAdMuMuAnalyserGen-WW_TuneCUETP8M1_13TeV-pythia8_v6_ext1-v1/job.dag: job complete.[0m

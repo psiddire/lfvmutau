@@ -1,0 +1,11 @@
+lpairs_mc_Oct13/WW_TuneCUETP8M1_13TeV-pythia8_v6-v1/make_ntuples_cfg-00E95BAA-C3D7-E611-A416-0025905A60BC.root
+lpairs_mc_Oct13/WW_TuneCUETP8M1_13TeV-pythia8_v6-v1/make_ntuples_cfg-0449B17C-BAD7-E611-8430-0025905B85EC.root
+lpairs_mc_Oct13/WW_TuneCUETP8M1_13TeV-pythia8_v6-v1/make_ntuples_cfg-628B8701-BFD7-E611-A9BD-0025905B85B2.root
+lpairs_mc_Oct13/WW_TuneCUETP8M1_13TeV-pythia8_v6-v1/make_ntuples_cfg-6426CC01-B5D7-E611-8351-0CC47A4D764A.root
+lpairs_mc_Oct13/WW_TuneCUETP8M1_13TeV-pythia8_v6-v1/make_ntuples_cfg-7C2EE7A5-C1D7-E611-8EAF-0025905A6066.root
+lpairs_mc_Oct13/WW_TuneCUETP8M1_13TeV-pythia8_v6-v1/make_ntuples_cfg-9A7AC48A-B3D7-E611-B770-0025905B85E8.root
+lpairs_mc_Oct13/WW_TuneCUETP8M1_13TeV-pythia8_v6-v1/make_ntuples_cfg-B62CB1A2-B3D7-E611-B04F-0025905A4964.root
+lpairs_mc_Oct13/WW_TuneCUETP8M1_13TeV-pythia8_v6-v1/make_ntuples_cfg-D24B55F7-B6D7-E611-AE14-0025905A613C.root
+lpairs_mc_Oct13/WW_TuneCUETP8M1_13TeV-pythia8_v6-v1/make_ntuples_cfg-D60A6F19-B8D7-E611-91F3-0025905A6060.root
+lpairs_mc_Oct13/WW_TuneCUETP8M1_13TeV-pythia8_v6-v1/make_ntuples_cfg-F02FB37A-BAD7-E611-8A3D-0CC47A4D76C0.root
+lpairs_mc_Oct13/WW_TuneCUETP8M1_13TeV-pythia8_v6-v1/make_ntuples_cfg-F6FBAF1C-B8D7-E611-8701-0CC47A4C8E1C.root

@@ -1,0 +1,12 @@
+lpairs_mc_Oct13/WGstarToLNuEE_012Jets_13TeV-madgraph_v6-v1/make_ntuples_cfg-144F8A27-05B7-E611-8927-FA163E75A20F.root
+lpairs_mc_Oct13/WGstarToLNuEE_012Jets_13TeV-madgraph_v6-v1/make_ntuples_cfg-1ADAF75E-F2B6-E611-B897-001E673D0679.root
+lpairs_mc_Oct13/WGstarToLNuEE_012Jets_13TeV-madgraph_v6-v1/make_ntuples_cfg-6EB9675C-F2B6-E611-AB07-001E6739CEB1.root
+lpairs_mc_Oct13/WGstarToLNuEE_012Jets_13TeV-madgraph_v6-v1/make_ntuples_cfg-7C18F050-F4B6-E611-BBFB-001E6739B019.root
+lpairs_mc_Oct13/WGstarToLNuEE_012Jets_13TeV-madgraph_v6-v1/make_ntuples_cfg-92093C59-F3B6-E611-B95C-001E67FA402D.root
+lpairs_mc_Oct13/WGstarToLNuEE_012Jets_13TeV-madgraph_v6-v1/make_ntuples_cfg-92E9BB1C-F8B6-E611-8356-02163E0176E2.root
+lpairs_mc_Oct13/WGstarToLNuEE_012Jets_13TeV-madgraph_v6-v1/make_ntuples_cfg-9C8D424B-F4B6-E611-BADE-001E6739AC71.root
+lpairs_mc_Oct13/WGstarToLNuEE_012Jets_13TeV-madgraph_v6-v1/make_ntuples_cfg-ACC75E38-05B7-E611-8F82-002590E39F4E.root
+lpairs_mc_Oct13/WGstarToLNuEE_012Jets_13TeV-madgraph_v6-v1/make_ntuples_cfg-CCC38649-05B7-E611-B5B7-003048322C15.root
+lpairs_mc_Oct13/WGstarToLNuEE_012Jets_13TeV-madgraph_v6-v1/make_ntuples_cfg-D2B2F6FF-F3B6-E611-9682-C81F66B7EBF5.root
+lpairs_mc_Oct13/WGstarToLNuEE_012Jets_13TeV-madgraph_v6-v1/make_ntuples_cfg-D67C4265-F7B6-E611-AB11-9CB654AEBD56.root
+lpairs_mc_Oct13/WGstarToLNuEE_012Jets_13TeV-madgraph_v6-v1/make_ntuples_cfg-E0415AC5-F6B6-E611-98A6-001C23C0F1F4.root

@@ -1,0 +1,1 @@
+lpairs_mc_Oct13/WWW_4F_TuneCUETP8M1_13TeV-amcatnlo-pythia8_v6-v1/make_ntuples_cfg-4A41203C-74C0-E611-9613-A0000420FE80.root

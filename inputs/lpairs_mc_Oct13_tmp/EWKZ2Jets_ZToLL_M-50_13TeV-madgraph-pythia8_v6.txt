@@ -1,0 +1,9 @@
+lpairs_mc_Oct13/EWKZ2Jets_ZToLL_M-50_13TeV-madgraph-pythia8_v6-v1/make_ntuples_cfg-74614DCC-DFBB-E611-9191-6C3BE5B5C0B0.root
+lpairs_mc_Oct13/EWKZ2Jets_ZToLL_M-50_13TeV-madgraph-pythia8_v6-v1/make_ntuples_cfg-867BA93D-BEBB-E611-848A-008CFA1CB740.root
+lpairs_mc_Oct13/EWKZ2Jets_ZToLL_M-50_13TeV-madgraph-pythia8_v6-v1/make_ntuples_cfg-90C576BE-DFBB-E611-8164-001E67E71403.root
+lpairs_mc_Oct13/EWKZ2Jets_ZToLL_M-50_13TeV-madgraph-pythia8_v6-v1/make_ntuples_cfg-925D9A1D-BEBB-E611-AE1D-001E67792634.root
+lpairs_mc_Oct13/EWKZ2Jets_ZToLL_M-50_13TeV-madgraph-pythia8_v6_ext2-v1/make_ntuples_cfg-20236A4C-E4D4-E611-A18A-1866DAEECFD0.root
+lpairs_mc_Oct13/EWKZ2Jets_ZToLL_M-50_13TeV-madgraph-pythia8_v6_ext2-v1/make_ntuples_cfg-342A2D61-C4D4-E611-A295-1866DAEA8394.root
+lpairs_mc_Oct13/EWKZ2Jets_ZToLL_M-50_13TeV-madgraph-pythia8_v6_ext2-v1/make_ntuples_cfg-A4202A8F-F6D4-E611-9DE4-FA163EEBEE73.root
+lpairs_mc_Oct13/EWKZ2Jets_ZToLL_M-50_13TeV-madgraph-pythia8_v6_ext2-v1/make_ntuples_cfg-C4B1DE74-F6D4-E611-969D-90B11C0BCBD7.root
+lpairs_mc_Oct13/EWKZ2Jets_ZToLL_M-50_13TeV-madgraph-pythia8_v6_ext2-v1/make_ntuples_cfg-D034F105-C9D4-E611-9D31-141877410340.root

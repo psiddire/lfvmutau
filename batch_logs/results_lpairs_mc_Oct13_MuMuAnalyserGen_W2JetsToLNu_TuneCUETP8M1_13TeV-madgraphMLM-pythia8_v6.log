@@ -1,0 +1,62 @@
+INFO:__main__:Processing inputs/lpairs_mc_Oct13/W2JetsToLNu_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_v6.txt using MuMuAnalyserGen.py, the output file will be results/lpairs_mc_Oct13/MuMuAnalyserGen/W2JetsToLNu_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_v6.root
+INFO:__main__:Generating submit scripts in /nfs_scratch/psiddire/tmp37u_8zMuMuAnalyserGen-W2JetsToLNu_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_v6
+INFO:FinalStateAnalysis.PlotTools.MegaPath:Checking inputs file inputs/lpairs_mc_Oct13/W2JetsToLNu_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_v6.txt exists...
+INFO:__main__:Running over 325 files in 33 jobs
+Generating submit files in /nfs_scratch/psiddire/tmp37u_8zMuMuAnalyserGen-W2JetsToLNu_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_v6/analyze...
+.................................
+Submit DAG file /nfs_scratch/psiddire/tmp37u_8zMuMuAnalyserGen-W2JetsToLNu_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_v6/job.dag has been created but not submitted.
+Jobs for Analyze are created in /nfs_scratch/psiddire/tmp37u_8zMuMuAnalyserGen-W2JetsToLNu_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_v6/analyze
+Using HADD method to merge files
+Increasing vsize limit from 3000 MB to 6000 MB
+Copying 52043904 bytes file:///nfs_scratch/psiddire/tmp37u_8zMuMuAnalyserGen-W2JetsToLNu_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_v6/MergeLayer0/user_code.tgz => srm://cmssrm2.hep.wisc.edu:8443/srm/v2/server?SFN=/hdfs/HighReplicaCondorUserFiles//nfs_scratch/psiddire/tmp37u_8zMuMuAnalyserGen-W2JetsToLNu_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_v6/MergeLayer0/user_code.tgz
+Generating submit files in /nfs_scratch/psiddire/tmp37u_8zMuMuAnalyserGen-W2JetsToLNu_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_v6/MergeLayer0...
+....
+Submit DAG file /nfs_scratch/psiddire/tmp37u_8zMuMuAnalyserGen-W2JetsToLNu_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_v6/job.dag has been created but not submitted.
+Jobs for MergeLayer0 are created in /nfs_scratch/psiddire/tmp37u_8zMuMuAnalyserGen-W2JetsToLNu_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_v6/MergeLayer0
+Using HADD method to merge files
+Increasing vsize limit from 3000 MB to 6000 MB
+Copying 52043904 bytes file:///nfs_scratch/psiddire/tmp37u_8zMuMuAnalyserGen-W2JetsToLNu_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_v6/FinalMerged/user_code.tgz => srm://cmssrm2.hep.wisc.edu:8443/srm/v2/server?SFN=/hdfs/HighReplicaCondorUserFiles//nfs_scratch/psiddire/tmp37u_8zMuMuAnalyserGen-W2JetsToLNu_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_v6/FinalMerged/user_code.tgz
+Generating submit files in /nfs_scratch/psiddire/tmp37u_8zMuMuAnalyserGen-W2JetsToLNu_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_v6/FinalMerged...
+.
+Submitting job(s).
+1 job(s) submitted to cluster 1618354.
+
+-----------------------------------------------------------------------
+File for submitting this DAG to HTCondor           : /nfs_scratch/psiddire/tmp37u_8zMuMuAnalyserGen-W2JetsToLNu_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_v6/job.dag.condor.sub
+Log of DAGMan debugging messages                 : /nfs_scratch/psiddire/tmp37u_8zMuMuAnalyserGen-W2JetsToLNu_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_v6/job.dag.dagman.out
+Log of HTCondor library output                     : /nfs_scratch/psiddire/tmp37u_8zMuMuAnalyserGen-W2JetsToLNu_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_v6/job.dag.lib.out
+Log of HTCondor library error messages             : /nfs_scratch/psiddire/tmp37u_8zMuMuAnalyserGen-W2JetsToLNu_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_v6/job.dag.lib.err
+Log of the life of condor_dagman itself          : /nfs_scratch/psiddire/tmp37u_8zMuMuAnalyserGen-W2JetsToLNu_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_v6/job.dag.dagman.log
+
+-----------------------------------------------------------------------
+You can monitor your workflow's progess by watching /nfs_scratch/psiddire/tmp37u_8zMuMuAnalyserGen-W2JetsToLNu_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_v6/job.dag.dagman.out
+A summary of the status of all of the jobs in your workflow will be
+written to the following file every 60 seconds:
+  /nfs_scratch/psiddire/tmp37u_8zMuMuAnalyserGen-W2JetsToLNu_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_v6/job.dag.status
+
+Your jobs should show up in ~6 minutes
+at the NEW job monitoring web page :
+    http://www.hep.wisc.edu/cms/comp/jobs/
+Jobs for FinalMerged are created in /nfs_scratch/psiddire/tmp37u_8zMuMuAnalyserGen-W2JetsToLNu_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_v6/FinalMerged
+INFO:__main__:Waiting for job to complete
+INFO:__main__:/nfs_scratch/psiddire/tmp37u_8zMuMuAnalyserGen-W2JetsToLNu_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_v6/job.dag: UNKNOWN stats: [30mUNKNOWN[0m(38)
+INFO:__main__:/nfs_scratch/psiddire/tmp37u_8zMuMuAnalyserGen-W2JetsToLNu_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_v6/job.dag: STATUS_SUBMITTED stats: [33mSTATUS_SUBMITTED[0m(12) [34mSTATUS_NOT_READY[0m(5) [36mSTATUS_READY[0m(21)
+INFO:__main__:/nfs_scratch/psiddire/tmp37u_8zMuMuAnalyserGen-W2JetsToLNu_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_v6/job.dag: STATUS_SUBMITTED stats: [33mSTATUS_SUBMITTED[0m(12) [34mSTATUS_NOT_READY[0m(5) [36mSTATUS_READY[0m(21)
+INFO:__main__:/nfs_scratch/psiddire/tmp37u_8zMuMuAnalyserGen-W2JetsToLNu_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_v6/job.dag: STATUS_SUBMITTED stats: [33mSTATUS_SUBMITTED[0m(12) [34mSTATUS_NOT_READY[0m(5) [36mSTATUS_READY[0m(21)
+INFO:__main__:/nfs_scratch/psiddire/tmp37u_8zMuMuAnalyserGen-W2JetsToLNu_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_v6/job.dag: STATUS_SUBMITTED stats: [33mSTATUS_SUBMITTED[0m(12) [34mSTATUS_NOT_READY[0m(5) [36mSTATUS_READY[0m(21)
+INFO:__main__:/nfs_scratch/psiddire/tmp37u_8zMuMuAnalyserGen-W2JetsToLNu_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_v6/job.dag: STATUS_SUBMITTED stats: [33mSTATUS_SUBMITTED[0m(12) [34mSTATUS_NOT_READY[0m(5) [36mSTATUS_READY[0m(21)
+INFO:__main__:/nfs_scratch/psiddire/tmp37u_8zMuMuAnalyserGen-W2JetsToLNu_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_v6/job.dag: STATUS_SUBMITTED stats: [33mSTATUS_SUBMITTED[0m(12) [34mSTATUS_NOT_READY[0m(5) [36mSTATUS_READY[0m(21)
+INFO:__main__:/nfs_scratch/psiddire/tmp37u_8zMuMuAnalyserGen-W2JetsToLNu_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_v6/job.dag: STATUS_SUBMITTED stats: [33mSTATUS_SUBMITTED[0m(4) [32mSTATUS_DONE[0m(32) [34mSTATUS_NOT_READY[0m(2)
+INFO:__main__:/nfs_scratch/psiddire/tmp37u_8zMuMuAnalyserGen-W2JetsToLNu_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_v6/job.dag: STATUS_SUBMITTED stats: [33mSTATUS_SUBMITTED[0m(4) [32mSTATUS_DONE[0m(32) [34mSTATUS_NOT_READY[0m(2)
+INFO:__main__:/nfs_scratch/psiddire/tmp37u_8zMuMuAnalyserGen-W2JetsToLNu_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_v6/job.dag: STATUS_SUBMITTED stats: [33mSTATUS_SUBMITTED[0m(4) [32mSTATUS_DONE[0m(32) [34mSTATUS_NOT_READY[0m(2)
+INFO:__main__:/nfs_scratch/psiddire/tmp37u_8zMuMuAnalyserGen-W2JetsToLNu_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_v6/job.dag: STATUS_SUBMITTED stats: [33mSTATUS_SUBMITTED[0m(4) [32mSTATUS_DONE[0m(32) [34mSTATUS_NOT_READY[0m(2)
+INFO:__main__:/nfs_scratch/psiddire/tmp37u_8zMuMuAnalyserGen-W2JetsToLNu_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_v6/job.dag: STATUS_SUBMITTED stats: [33mSTATUS_SUBMITTED[0m(4) [32mSTATUS_DONE[0m(32) [34mSTATUS_NOT_READY[0m(2)
+INFO:__main__:/nfs_scratch/psiddire/tmp37u_8zMuMuAnalyserGen-W2JetsToLNu_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_v6/job.dag: STATUS_SUBMITTED stats: [33mSTATUS_SUBMITTED[0m(4) [32mSTATUS_DONE[0m(32) [34mSTATUS_NOT_READY[0m(2)
+INFO:__main__:/nfs_scratch/psiddire/tmp37u_8zMuMuAnalyserGen-W2JetsToLNu_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_v6/job.dag: STATUS_SUBMITTED stats: [33mSTATUS_SUBMITTED[0m(1) [32mSTATUS_DONE[0m(37)
+INFO:__main__:/nfs_scratch/psiddire/tmp37u_8zMuMuAnalyserGen-W2JetsToLNu_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_v6/job.dag: STATUS_SUBMITTED stats: [33mSTATUS_SUBMITTED[0m(1) [32mSTATUS_DONE[0m(37)
+INFO:__main__:/nfs_scratch/psiddire/tmp37u_8zMuMuAnalyserGen-W2JetsToLNu_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_v6/job.dag: STATUS_SUBMITTED stats: [33mSTATUS_SUBMITTED[0m(1) [32mSTATUS_DONE[0m(37)
+INFO:__main__:/nfs_scratch/psiddire/tmp37u_8zMuMuAnalyserGen-W2JetsToLNu_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_v6/job.dag: STATUS_SUBMITTED stats: [33mSTATUS_SUBMITTED[0m(1) [32mSTATUS_DONE[0m(37)
+INFO:__main__:/nfs_scratch/psiddire/tmp37u_8zMuMuAnalyserGen-W2JetsToLNu_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_v6/job.dag: STATUS_SUBMITTED stats: [33mSTATUS_SUBMITTED[0m(1) [32mSTATUS_DONE[0m(37)
+INFO:__main__:/nfs_scratch/psiddire/tmp37u_8zMuMuAnalyserGen-W2JetsToLNu_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_v6/job.dag: STATUS_DONE stats: [32mSTATUS_DONE[0m(38)
+INFO:__main__:Copying final output /hdfs/store/user/psiddire/MegaJob_tmp37u_8zMuMuAnalyserGen-W2JetsToLNu_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_v6//mergeFilesJob-mergeFilesJob-mega-batch-make_ntuples_cfg-36B8952D-49C2-E611-9E20-00259073E322.root => results/lpairs_mc_Oct13/MuMuAnalyserGen/W2JetsToLNu_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_v6.root
+INFO:__main__:[32m/nfs_scratch/psiddire/tmp37u_8zMuMuAnalyserGen-W2JetsToLNu_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_v6/job.dag: job complete.[0m

@@ -1,0 +1,164 @@
+from BasePlotter import BasePlotter
+import rootpy.plotting.views as views
+from FinalStateAnalysis.PlotTools.Plotter import Plotter
+from FinalStateAnalysis.PlotTools.RebinView import RebinView
+from FinalStateAnalysis.MetaData.data_styles import data_styles, colors
+from FinalStateAnalysis.PlotTools.decorators import memo
+from optparse import OptionParser
+import os
+import ROOT
+import glob
+import math
+import logging
+import sys
+logging.basicConfig(stream=sys.stderr, level=logging.WARNING)
+from fnmatch import fnmatch
+from yellowhiggs import xs, br, xsbr
+from FinalStateAnalysis.PlotTools.MegaBase import make_dirs
+from os import listdir
+from os.path import isfile, join
+
+def remove_name_entry(dictionary):
+    return dict( [ i for i in dictionary.iteritems() if i[0] != 'name'] )
+
+ROOT.gROOT.SetStyle("Plain")
+ROOT.gROOT.SetBatch()
+ROOT.gStyle.SetOptStat(0)
+
+jobid = os.environ['jobid']
+#print jobid
+
+mc_samples = [
+    'WGstarToLNuEE*',
+    'WGstarToLNuMuMu*',
+    'ZZTo2L2Q*',
+    'ZZTo4L*',
+    'EWKWMinus2Jets*',
+    'WminusHToTauTau_M125*',
+    'EWKWPlus2Jets*',
+    'WplusHToTauTau_M125*',
+    'EWKZ2Jets_ZToLL*',
+    'EWKZ2Jets_ZToNuNu*',
+    'WGToLNuG*',
+    'WW_TuneCUETP8M1*',
+    'WZ_TuneCUETP8M1*',
+    'ZZ_TuneCUETP8M1*',
+    'WZJToLLLNu*',
+    'WZTo1L1Nu2Q*',
+    'WZTo1L3Nu*',
+    'WZTo2L2Q*',
+    'WWTo1L1Nu2Q*',
+    'WWW_4F*',
+    'DY1JetsToLL_M-10to50*',
+    'DY1JetsToLL_M-50*',
+    'DY2JetsToLL_M-10to50*',
+    'DY2JetsToLL_M-50*',
+    'DY3JetsToLL_M-50*',
+    'DY4JetsToLL_M-50*',
+    'DYJetsToLL_M-10to50*',
+    'DYJetsToLL_M-50*',
+    'W1JetsToLNu*',
+    'W2JetsToLNu*',
+    'W3JetsToLNu*',
+    'W4JetsToLNu*',
+    'WJetsToLNu*',
+    'ttHJetToTT*',
+    'TT_TuneCUETP8M2T4_13TeV-powheg-pythia8_v6*',
+#    'TTevtgen',
+    'ST_t-channel_antitop_4f*',
+    'ST_t-channel_top_4f*',
+    'ST_tW_antitop_5f*',
+    'ST_tW_top_5f*',
+    'data*'
+]
+
+files=[]
+lumifiles=[]
+channel = 'Iso0p15'
+for x in mc_samples:
+#    if x!='data*':
+    files.extend(glob.glob('results/%s/MuMuAnalyser/%s' % (jobid, x)))
+    lumifiles.extend(glob.glob('inputs/%s/%s.lumicalc.sum' % (jobid, x)))
+#    else:
+#        files.extend(glob.glob('results/lpairs_data_Oct9/MuMuAnalyser/%s' % (x)))
+#        lumifiles.extend(glob.glob('inputs/lpairs_data_Oct9/%s.lumicalc.sum' % (x)))
+
+period = '13TeV'
+sqrts = 13
+outputdir = 'plots/%s/MuMuAnalyser/' % (jobid)
+if not os.path.exists(outputdir):
+    os.makedirs(outputdir)
+#plotter = BasePlotter(files, lumifiles, outputdir, None, 1000.) 
+plotter = Plotter(files, lumifiles, outputdir) 
+
+
+WSMH = views.StyleView(
+    views.SumView( 
+        *[ plotter.get_view(regex) for regex in \
+          filter(lambda x : x.startswith('WminusHToTauTau_M125') or x.startswith('WplusHToTauTau_M125') , mc_samples )]
+    ), **remove_name_entry(data_styles['WH*'])
+)
+
+EWKDiboson = views.StyleView(
+    views.SumView( 
+        *[ plotter.get_view(regex) for regex in \
+          filter(lambda x : x.startswith('WW') or x.startswith('WZ') or x.startswith('ZZ') or x.startswith('WG'), mc_samples )]
+    ), **remove_name_entry(data_styles['WW*'#,'WZ*', 'WG*', 'ZZ*'
+])
+)
+
+WJ = views.StyleView(
+    views.SumView(
+        *[ plotter.get_view(regex) for regex in \
+          filter(lambda x : x.startswith('W1JetsToLNu') or x.startswith('W2JetsToLNu') or x.startswith('W3JetsToLNu') or x.startswith('W4JetsToLNu') or x.startswith('WJetsToLNu') , mc_samples )]
+    ), **remove_name_entry(data_styles['WplusJets*'])
+)
+
+ST = views.StyleView(views.SumView( *[ plotter.get_view(regex) for regex in filter(lambda x :  x.startswith('ST') , mc_samples )]), **remove_name_entry(data_styles['T*_t*']))
+TT = views.StyleView(views.SumView( *[ plotter.get_view(regex) for regex in filter(lambda x :  x.startswith('TT') or x.startswith('ttHJetToTT*') , mc_samples )]), **remove_name_entry(data_styles['TT*']))
+DY = views.StyleView(views.SumView( *[ plotter.get_view(regex) for regex in filter(lambda x :  x.startswith('DY') , mc_samples )]), **remove_name_entry(data_styles['Zjets*']))
+EWKWJets = views.StyleView(views.SumView(*[ plotter.get_view(regex) for regex in filter(lambda x :  x.startswith('EWKWMinus2Jets*') or x.startswith('EWKWPlus2Jets*') , mc_samples )]), **remove_name_entry(data_styles['Wplus*Jets*']))
+EWKZJets = views.StyleView(views.SumView( *[ plotter.get_view(regex) for regex in filter(lambda x :  x.startswith('EWKZ2Jets_ZToLL*') or x.startswith('EWKZ2Jets_ZToNuNu*') , mc_samples )]), **remove_name_entry(data_styles['Z*jets*']))
+
+
+
+plotter.views['WSMH']={'view' : WSMH }
+plotter.views['EWKDiboson']={'view' : EWKDiboson }
+plotter.views['WJ']={'view' : WJ }
+plotter.views['DY']={'view' : DY }
+plotter.views['EWKWJets']={'view' : EWKWJets }
+plotter.views['EWKZJets']={'view' : EWKZJets }
+plotter.views['TT']={'view' : TT }
+plotter.views['ST']={'view' : ST }
+
+new_mc_samples = []
+new_mc_samples.extend(['WSMH', 'EWKDiboson', 'WJ', 'DY', 'EWKWJets', 'TT', 'ST', 'EWKZJets'])
+plotter.mc_samples = new_mc_samples
+
+histoname = ['m1Pt','m2Pt','m1_m2_Mass','m1Eta','m2Eta','m1Phi','m2Phi']
+axistitle = ['m1 p_{T} (GeV)','m2 p_{T} (GeV)','m1-m2 Inv Mass (GeV)','m1 #eta','m2 #eta','m1 #phi','m2 #phi']
+ll = [['data'],['WHToTauTau','EWKDiboson','WPlusJets','DY','EWKWJets','t#bar{t}','SingleTop','EWKZJets']]
+
+
+foldername = channel
+if not os.path.exists(outputdir+'/'+foldername):
+    os.makedirs(outputdir+'/'+foldername)
+
+rebins = []
+for n in histoname :
+    rebins.append(1)
+
+for n,h in enumerate(histoname):
+    plotter.pad.SetLogy(True)
+    
+#    plotter.plot_mc(foldername, h, 1, xaxis= axistitle[n], leftside=False, show_ratio=False, ratio_range=1.5,  sort=False)
+    print "histo", h
+    if h=='m1Pt' or h=='m2Pt' or h=='m1_m2_Mass':
+        plotter.plot_mc_vs_data(foldername, h, 1, xaxis=axistitle[n], legend_label=ll, leftside=False, xrange=[0,200], show_ratio=True, ratio_range=1.5, sort=True)
+    else:
+        plotter.plot_mc_vs_data(foldername, h, 1, xaxis=axistitle[n], legend_label=ll, leftside=False, xrange=[-5,10], show_ratio=True, ratio_range=1.5, sort=True)
+    plotter.save(foldername+'/'+h)
+#rebin=rebins[n]
+
+
+
